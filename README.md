@@ -6,3 +6,6 @@ Its a smart contract of lottery, where minimum 3 players are required to play th
 
 #Ecommerse.sol
 its a Ecommerse contract where seller can add his products, and buyer can buy from the listed products. If manager snese something wrong about the contract eg: hacking, than the manager can destroy the contract.
+
+#eventManagmentbasic.sol
+smart contract for event where one can list the events.
