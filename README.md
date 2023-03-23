@@ -1,4 +1,4 @@
-###Basic Smart-Contract Projects
+===Basic Smart-Contract Projects
 some basic level smart contracts for understanding of solidity concepts
 
 #lottery.sol
