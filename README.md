@@ -9,3 +9,6 @@ its a Ecommerse contract where seller can add his products, and buyer can buy fr
 
 #eventManagmentbasic.sol
 smart contract for event where one can list the events.
+
+##StudentRecord
+its a basic smart contract where only class teacher can update the student records like name,roll,marks 
