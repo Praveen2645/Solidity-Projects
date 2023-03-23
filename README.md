@@ -1,4 +1,4 @@
- ### Basic Smart-Contract Projects 
+ ## Basic Smart-Contract Projects 
 some basic level smart contracts for understanding of solidity concepts
 
 ## lottery.sol
@@ -7,7 +7,7 @@ Its a smart contract of lottery, where minimum 3 players are required to play th
 ## Ecommerse.sol
 its a Ecommerse contract where seller can add his products, and buyer can buy from the listed products. If manager snese something wrong about the contract eg: hacking, than the manager can destroy the contract.
 
-**Event Managmentbasic.sol** 
+## Event Managmentbasic.sol
 smart contract for event where one can list the events.
 
 ## StudentRecord
