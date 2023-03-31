@@ -12,3 +12,10 @@ smart contract for event where one can list the events.
 
 ## StudentRecord
 its a basic smart contract where only class teacher can update the student records like name,roll,marks 
+
+##SimpleStorage.sol
+stores the favourite number of a person
+
+##DAO.sol
+Decentralize Autonomus Organisation 
+
