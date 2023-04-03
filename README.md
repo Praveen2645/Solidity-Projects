@@ -19,3 +19,8 @@ stores the favourite number of a person
 ## DAO.sol
 Decentralize Autonomus Organisation 
 
+## Will.sol
+This is the basic smart contract of Will.
+
+## ToDoList.sol
+Basic smart contract for the todo list where one can add the things to do in the whole day, one can also delete it
