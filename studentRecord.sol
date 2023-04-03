@@ -51,6 +51,7 @@ contract StudentRecords {
 //function to delete a particular record
     function deleteRecords(uint256 _roll) public onlyTeacher {
         delete studentDetails[_roll];
+        studentCount--;
     }
 }
 
