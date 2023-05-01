@@ -17,7 +17,8 @@ its a basic smart contract where only class teacher can update the student recor
 stores the favourite number of a person
 
 ## DAO.sol
-Decentralize Autonomus Organisation 
+In this two entities-Investors and Manager, Investors injecting the funds and they have the power to vote. the more fund they inject the more powerful their vote is.
+here proposals are create eg:for education. investor can contribute it.can vote for a proposal. manager can execute proposal and the requiredd funds will be transfered to the one who created the propsal and use for a good cause. 
 
 ## Will.sol
 This is the basic smart contract of Will.
