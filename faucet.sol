@@ -49,6 +49,13 @@ _;
        payable(msg.sender).transfer(0.001 ether);
       
     }
+
+    //function withdraw helps aadmin to remove funds instantly
+    function withdraw() public payable onlyAdmin() {
+     require(admin == msg.sender, "only manager have access");
+     admin.transfer(address(this).balance);
+     balance=0;
+    }
 // this function checks that user
     function canBorrow(address user) internal view returns (bool) {
         return (block.timestamp - _users[user].borrowedTime) <= 1 days;// check the time elapsed of the user
@@ -58,7 +65,7 @@ _;
         require(admin == msg.sender, "only manager have access");
         admin.transfer(address(this).balance); // contract balance will transfer to manager account
         balance =0;
-        destroyer = true;  
+        destroyer = true;  //true means destroyed
     }
 //function to pause the contract
     function pause() public onlyAdmin(){
