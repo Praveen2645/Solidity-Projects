@@ -25,3 +25,7 @@ This is the basic smart contract of Will.
 
 ## ToDoList.sol
 Basic smart contract for the todo list where one can add the things to do in the whole day, one can also delete it
+
+## Faucet.sol
+This contract gives the basic understanding of how the facets work eg:goerli faucet, where one can borrow limited tokens from the faucet or website for their use.
+In this contract Admin can inject some funds to the contract and and users can borrow 0.001 eth only into his account.
